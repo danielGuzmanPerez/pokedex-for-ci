@@ -5,8 +5,8 @@ import './styles.css'
 
 const container = document.getElementById('root')
 
-const roor = createRoot(container)
+const root = createRoot(container)
 
-root.rener(<App />)
+root.render(<App />)
 
 
