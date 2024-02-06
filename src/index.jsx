@@ -1,10 +1,12 @@
 import React from 'react'
-import {createRoot} from 'react-dom/client'
+import { createRoot } from 'react-dom/client'
 import App from './App'
 import './styles.css'
 
-const conatainer = document.getElementById('root');
+const container = document.getElementById('root')
 
-const roor = createRoot(conatiner);
+const roor = createRoot(container)
 
-root.rener(<App />);
+root.rener(<App />)
+
+
